@@ -17,8 +17,8 @@ import time
 from datetime import date
 
 quotes = {}
-path1 = 'D:/Python爬蟲程式與資料視覺化開發-專題/'
-path2 = 'D:/Python爬蟲程式與資料視覺化開發-專題/price/'
+path1 = 'D:/GitHub/TwStock/'
+path2 = 'D:/GitHub/TwStock/price/'
 
 # 讀取檔案目錄
 all_file_name = os.listdir(path1)
