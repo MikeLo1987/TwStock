@@ -11,7 +11,7 @@ from datetime import datetime
 from datetime import date
 import matplotlib.pyplot as plt
 
-path1 = 'D:/Python爬蟲程式與資料視覺化開發-專題/price/'
+path1 = 'D:/GitHub/TwStock/price/'
 # 提示使用者輸入查詢之起訖日，並將輸入結果轉換為 datetime 物件。
 symbol = input("請輸入股票代號:")
 date_start = input("請輸入開始查詢之日期，格式為YYYY-mm-dd:")
@@ -52,7 +52,7 @@ def stock(symbol):
     target = target.reset_index(drop=True)
     return target
 
-path2 = 'D:/Python爬蟲程式與資料視覺化開發-專題/'
+path2 = 'D:/GitHub/TwStock/'
 
 df = stock(symbol)
 df.to_csv(path2 + symbol + '.csv')
