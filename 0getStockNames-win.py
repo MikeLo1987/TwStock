@@ -15,7 +15,7 @@ import pandas as pd
 import datetime
 import os
 
-path = 'D:/Python爬蟲程式與資料視覺化開發-專題/'
+path = 'D:/GitHub/TwStock/'
 
 # 爬取全台灣上市上櫃公司
 res1 = requests.get("https://isin.twse.com.tw/isin/C_public.jsp?strMode=2")
