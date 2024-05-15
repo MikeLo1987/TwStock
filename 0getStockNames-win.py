@@ -78,7 +78,7 @@ for filename in all_file_name:
 
 today_filename = 'stock_names' + date + '.csv'
 stock_names.to_csv(path + today_filename)
-print(date + '已取得最新的上市上櫃公司')
+print(date + '已取得最新的上市上櫃公司列表')
 
 #待修改
 try:
